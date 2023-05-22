@@ -1,0 +1,15 @@
+# to check whether given character is digit, alphabet, or special symbol
+
+#include<stdio.h>
+
+void main()
+{
+  char x;
+  scanf("%c",&x);
+  if((x>=65) && (x<112))
+  printf("alphabet");
+  else if(x>=0)
+  printf("digit");
+  else
+  printf("special symbol");
+}
