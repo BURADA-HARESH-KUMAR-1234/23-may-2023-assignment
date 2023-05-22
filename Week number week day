@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+void main()
+{
+  int wk,i;
+  scanf("%d",&wk);
+  if(wk==1)
+  printf("monday");
+  else if(wk==2)
+  printf("tuesday");
+  else if(wk==3)
+  printf("wednesday");
+  else if(wk==4)
+  printf("thrusday");
+  else if(wk==5)
+  printf("friday");
+  else
+  printf("saturday");
+}
+
